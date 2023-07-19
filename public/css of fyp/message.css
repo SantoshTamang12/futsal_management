@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";, 
+}
+body{
+    background: #fff;
+    padding-bottom:75px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    top: 0px;
+    background:#0C0032;
+    z-index: 9999;
+    }
+    nav ul{
+        float: right;
+        padding-top: 25px;
+    }
+    nav li{
+        display: inline-block;
+        list-style: none;
+    }
+    nav li a{
+        
+        font-size: 24px;
+        padding: 0px 30px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+    nav li a:hover{
+        color: #ff8c69;
+        transition: all 0.4s ease;
+    }
+    .logo{position: absolute;
+        width: 108px;
+        height: 70px;
+        left: 66px;
+        top: 4px;
+        position: fixed;
+    }
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    background-color:#D9D9D9;
+    border:thin;
+    border-color:white;
+    border-style:solid;
+}
+.infobar{
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    height: 15%;
+    width: 80%;
+    background-color: #D9D9D9;
+    border: thin;
+    border-color: white;
+    border-style: solid;
+}
+.headchat{
+    position: absolute;
+    font-size: 26px;
+    top: 12%;
+    left:10%;
+    
+}
+.boxsear{
+    position: absolute;
+    top:18%;
+    left: 10%;
+    width: 100%;
+    min-height:5%;
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+    max-height: 5%;
+}
+.searchbar{
+    width: 100%;
+    max-width:200px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius:0px 20px;
+    border-radius: 60px;
+    height: 3%;
+}
+.searchbar input{
+    background:transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding-left:20px;
+    padding-right:0px;
+    font-size: 16px;
+    color: #0C0032;
+    width: 3%;
+   
+}
+
+.searchbar button img{
+    width: 50%;
+    height: 5%;
+    background:transparent;
+
+}
+.searchbar button img{
+    border: none;
+    border-radius: 50%;
+    width: 50%;
+    cursor: pointer;
+    top: 10%;
+}
+.butt{
+    border: none;
+    background: #fff;
+    border-radius: 50%;
+    
+}
+.name{
+    position: relative;
+    top: 35%;
+    left: 10%;
+    text-decoration: none;
+    color: #0C0032;
+    text-un
+}
+.na{
+    text-decoration: none;
+    
+}
+.infobar img{
+    border-radius: 50%;
+}
+.userima{
+    position: relative;
+    left: 2%;
+    height: 50%;
+    width: 5%;
+    top:-10%
+
+}
+.msgbox{
+    position: fixed;
+    top: 25%;
+    left: 20%;
+    background-color:white;
+    height: 80%;
+    width: 80%; 
+}
+.sendmsg{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    background-color:#D9D9D9;
+    height: 10%;
+    width: 80%;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+}
+.sendmss{
+    width: 100%;
+    max-width:950px;
+   
+    display: flex;
+    align-items: center;
+    border-radius:0px 20px;
+    border-radius: 60px;
+    height: 3%;
+}
+.sendmss input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 26px 26px;
+    font-size: 20px;
+   
+}
+.sendmss button img{
+    background-color: #D9D9D9;
+    height: 30px;
+
+}
+.sendmss button{
+    border: 0;
+    border-radius: 0%;
+    cursor: pointer;
+    background-color: #D9D9D9;
+}
+.box1{
+    position: fixed;
+    background-color: #D9D9D9;
+    height: 15%;
+    width:20%;
+    top: 25%;
+    background-color: #D9D9D9;
+    border: thin;
+    border-color: white;
+    border-style: solid;
+}
+.box1 img{position: relative;
+top: 30%;
+    height: 40%;
+    width: 20%;
+    left: 10%;
+    border-radius: 50%;
+}
+.name1{
+    position: relative;
+    left: 18%;
+    font-size: 18px;
+    max-width: 30px;
+    text-decoration: none;
+    color: #0C0032;
+}
+
+.box2{
+    position: fixed;
+    background-color: #D9D9D9;
+    border: thin;
+    border-color: white;
+    border-style: solid;
+    height: 15%;
+    width:20%;
+    top: 40%;
+
+}
+.box2 img{position: relative;
+    top: 30%;
+        height: 40%;
+        width: 20%;
+        left: 10%;
+        border-radius: 50%;
+    }
+.name2{
+        position: relative;
+        left: 18%;
+        font-size: 18px;
+        max-width: 30px;
+        text-decoration: none;
+        color: #0C0032;
+    }
+.box3{
+    position: fixed;
+    background-color: #D9D9D9;
+    border: thin;
+    border-color: white;
+    border-style: solid;
+    height: 15%;
+    width:20%;
+    top: 55%;
+}
+.box3 img{position: relative;
+    top: 30%;
+        height: 40%;
+        width: 20%;
+        left: 10%;
+        border-radius: 50%;
+    }
+.name3{
+        position: relative;
+        left: 18%;
+        font-size: 18px;
+        max-width: 30px;
+        text-decoration: none;
+        color: #0C0032;
+    }
+.box4{
+    position: fixed;
+    background-color: #D9D9D9;
+    border: thin;
+    border-color: white;
+    border-style: solid;
+    height: 15%;
+    width:20%;
+    top: 70%;
+}
+.box4 img{position: relative;
+    top: 30%;
+        height: 40%;
+        width: 20%;
+        left: 10%;
+        border-radius: 50%;
+    }
+.name4{
+        position: relative;
+        left: 18%;
+        font-size: 18px;
+        max-width: 30px;
+        text-decoration: none;
+        color: #0C0032;
+    }
+.box5{
+    position: fixed;
+    background-color: #D9D9D9;
+    border: thin;
+    border-color: white;
+    border-style: solid;
+    height: 15%;
+    width:20%;
+    top: 85%;
+}
+.box5 img{position: relative;
+    top: 30%;
+        height: 40%;
+        width: 20%;
+        left: 10%;
+        border-radius: 50%;
+    }
+.name5{
+        position: relative;
+        left: 18%;
+        font-size: 18px;
+        max-width: 30px;
+        text-decoration: none;
+        color: #0C0032;
+    }
+.messages{
+    position: relative;
+    flex-direction: column;
+        align-items: flex-end;
+        overflow-y: scroll;
+        height: 75%;
+        padding-right: 5%;
+      }
+
+
+

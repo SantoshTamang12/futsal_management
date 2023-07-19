@@ -1,0 +1,102 @@
+
+/* .navigation{
+    align-items: center;
+    padding-top: 10px;
+}  */
+
+    .card-body{
+        position: absolute;
+        width: 650px;
+        height: 650px;
+        left: 82px;
+        top: 100px;
+        background: #fff;
+        box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+        text-align: center;
+
+        }
+.wrapper img{
+   left: o;
+}
+ h1{
+     font-size: 32px;
+     color: #0C0032;
+    margin-bottom: 1.2rem;
+     margin-top: 1.2rem;
+        }
+input[type="submit"]{
+            color: #fff;
+            font-size: 20px;
+            margin-top: 1.8rem;
+            padding: 10px 0;
+            border-radius: 20px;
+            outline: none;
+            border:none;
+            width: 60%;
+            background:#0C0032 ;
+
+}
+form input{
+    width: 70%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+label{
+    color: #0C0032;
+    font-size: 18px;
+}
+select{
+    width: 70%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+.icon{
+
+            width: 47px;
+            height: 40px;
+
+        }
+.passicon{
+                align-items: baseline;
+                width: 47px;
+                height: 40px;
+            }
+ .player{position: absolute;
+                width: 553px;
+                height: 523px;
+                left: 848px;
+                top: 196px;
+
+            }
+
+.name{
+    width: 47px;
+    height: 40px;
+}
+.Caledaricon{
+    width: 47px;
+    height: 40px;
+
+}
+.calen{
+    width: 70%;
+
+}
+.callicon{
+    width: 47px;
+    height: 40px;
+}
+.visiticon{
+    width: 47px;
+    height: 40px;
+}
+
+

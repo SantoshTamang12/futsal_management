@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";, 
+}
+body{
+    background: #fff;
+    padding-bottom:75px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    top: 0px;
+    background:#0C0032;
+    z-index: 9999;
+    }
+    nav ul{
+        float: right;
+        padding-top: 25px;
+    }
+    nav li{
+        display: inline-block;
+        list-style: none;
+    }
+    nav li a{
+        
+        font-size: 24px;
+        padding: 0px 30px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+    nav li a:hover{
+        color: #ff8c69;
+        transition: all 0.4s ease;
+    }
+    .logo{position: absolute;
+        width: 108px;
+        height: 70px;
+        left: 66px;
+        top: 4px;
+        position: fixed;
+    }
+.name{
+    position: absolute;
+    font-size: 40px;
+    color: #0C0032;
+    top: 15%;
+    left: 45%;
+}    
+.ima{
+    position: absolute;
+   top: 30%;
+   left: 5%;
+   height:50%;
+   width: 90%;
+}
+.des{
+    position: absolute;
+    top: 85%;
+    left: 5%;
+    font-size: 30px;
+    color: #0C0032;
+}
+h1{
+    color: #0C0032;
+}
+.para{
+    position: absolute;
+    top: 93%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    color: #0C0032;
+    font-size: 20px;
+}
+.foot{
+    position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0c0032;
+  color: #fff;
+  padding: 20px;
+    background-color: #0c0032;
+     color: #fff; padding: 20px;
+     flex: 1;
+}
+footer {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: #0c0032;
+    color: #fff;
+    padding: 20px 5%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: calc(33.33% - 10%);
+  }
+  
+  .footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+  }
+  
+  .footer-section p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    position: relative;
+    margin-bottom: 80px; /* height of the footer */
+  }
+  
+  

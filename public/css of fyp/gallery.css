@@ -1,0 +1,11 @@
+.row {
+    margin: 15px;
+}
+
+/* .image-container:hover+.image-modal {
+    display: block;
+    visibility: visible;
+} */
+.image-container:hover .image-modal {
+    visibility: visible !important;
+}

@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";, 
+}
+body{
+    background: #fff;
+    padding-bottom:75px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    padding: 0px 100px;
+    top: 0px;
+    background:#0C0032;
+    z-index: 9999;
+    }
+    nav ul{
+        float: right;
+        padding-top: 25px;
+    }
+    nav li{
+        display: inline-block;
+        list-style: none;
+    }
+    nav li a{
+        
+        font-size: 24px;
+        padding: 0px 30px;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        
+    }
+    nav li a:hover{
+        color: #ff8c69;
+        transition: all 0.4s ease;
+    }
+    .logo{position: absolute;
+        width: 108px;
+        height: 70px;
+        left: 66px;
+        top: 4px;
+        position: fixed;
+    }
+.writing{
+    position: absolute;
+    font-size: 36px;
+    color: #0C0032;
+    left: 5%;
+    top: 15%;
+}  
+.list1{
+    position: absolute;
+    font-size: 36px;
+    color: #0C0032;
+    left: 5%;
+    top: 22%;
+}  
+.list2{
+    position: absolute;
+    font-size: 36px;
+    color: #0C0032;
+    left: 80%;
+    top: 22%;
+} 
+.box1{
+top:30%;
+position: absolute;
+width: 86%;
+height: 15%;
+background: #fff;
+box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+
+left: 5%;
+
+
+}     
+.pp1{
+position: absolute;
+border-radius: 50%;
+height: 50%;
+top: 25%;
+left: 3%;
+}
+.name1{ 
+    position: absolute;
+top: 20%;
+font-size: 30px;
+color: #0C0032;
+left: 10%;
+}
+.address1{ 
+position: absolute;
+top: 55%;
+font-size: 24px;
+color: #0C0032;
+left: 10%;
+}
+.date1{ 
+    position: absolute;
+    top: 20%;
+    font-size: 30px;
+    color: #0C0032;
+    left: 85%;
+    }
+.time1{
+    position: absolute;
+top: 55%;
+font-size: 24px;
+color: #0C0032;
+left: 85%;
+} 
+/* gap between two box 17%*/
+.box2{
+    top:47%;
+    position: absolute;
+    width: 86%;
+    height: 15%;
+    background: #fff;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    
+    left: 5%; }     
+.pp2{
+    position: absolute;
+    border-radius: 50%;
+    height: 50%;
+    top: 25%;
+    left: 3%;
+    }
+.name2{ 
+        position: absolute;
+    top: 20%;
+    font-size: 30px;
+    color: #0C0032;
+    left: 10%;
+    }
+.address2{ 
+    position: absolute;
+    top: 55%;
+    font-size: 24px;
+    color: #0C0032;
+    left: 10%;
+    
+}
+.date2{ 
+     position: absolute;
+     top: 20%;
+    font-size: 30px;
+    color: #0C0032;
+    left: 85%;
+    }
+.time2{
+    position: absolute;
+    top: 55%;
+    font-size: 24px;
+    color: #0C0032;
+    left: 85%;
+    }      
+
+.box3{
+ top:64%;
+    position: absolute;
+    width: 86%;
+    height: 15%;
+    background: #fff;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);   
+    left: 5%; 
+}     
+.pp3{
+    position: absolute;
+    border-radius: 50%;
+    height: 50%;
+    top: 25%;
+    left: 3%;
+    }
+.name3{ 
+        position: absolute;
+        top: 20%;
+        font-size: 30px;
+        color: #0C0032;
+        left: 10%;
+        }
+.address3{ 
+        position: absolute;
+        top: 55%;
+        font-size: 24px;
+        color: #0C0032;
+        left: 10%;
+        
+    }
+.date3{ 
+     position: absolute;
+    top: 20%;
+    font-size: 30px;
+    color: #0C0032;
+    left: 85%;
+    }
+.time3{
+    position: absolute;
+    top: 55%;
+    font-size: 24px;
+    color: #0C0032;
+    left: 85%;
+    }   
+.box4{
+    top:81%;
+    position: absolute;
+    width: 86%;
+    height: 15%;
+    background: #fff;
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);   
+    left: 5%; 
+       }     
+.pp4{
+        position: absolute;
+        border-radius: 50%;
+        height: 50%;
+        top: 25%;
+    left: 3%;
+           }
+.name4{ 
+        position: absolute;
+        top: 20%;
+        font-size: 30px;
+        color: #0C0032;
+        left: 10%;
+               }
+.address4{ 
+        position: absolute;
+        top: 55%;
+        font-size: 24px;
+        color: #0C0032;
+        left: 10%;
+               
+           }
+.date4{ 
+        position: absolute;
+        top: 20%;
+        font-size: 30px;
+        color: #0C0032;
+        left: 85%;
+}
+.time4{
+        position: absolute;
+        top: 55%;
+        font-size: 24px;
+        color: #0C0032;
+        left: 85%;
+        }          
